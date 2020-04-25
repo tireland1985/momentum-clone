@@ -63,6 +63,9 @@ input:placeholder {
 input:focus, input:active {
     outline: none;
 }
+.name-text {
+    color: #ff0000;
+}
 
 ul {
     list-style-type: none;
