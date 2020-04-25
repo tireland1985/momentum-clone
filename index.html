@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum-clone</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Google fonts API -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300&display=swap" rel="stylesheet">
+
+    <!-- link to project stylesheet -->
+    <link rel = "stylesheet" href="stylesheets/main.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+        </div>
+    </header>
+<div class="hero">
+    <div class="container">
+            
+    <div class="row">
+        <div class="js-name name"></div>
+    </div>
+
+    <div class="row">
+        <form class="col-lg-6 col-8 mx-auto js-todo todo">
+            <div class="input-group">
+                <input type="text" id="input" class="form-control js-addTodo addTodo" placeholder="Enter ToDo Item: " value="">
+               <!-- <span>
+                    <button id="btn" class="btn btn-primary" type="button">Submit</button>
+                </span>-->
+            </div>
+        </form>
+    </div>
+
+    <!--<div class="row">
+        <button id="btnClr" class="btn btn-primary mx-auto btnHide" type="button">Clear</button>
+    </div>-->
+
+    <div class="row">
+        <div class="col-lg-3 col-4 mx-auto">
+        <div class="weather-title">
+            <p>Current Weather:</p>
+        </div>
+        <div class="notification"></div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="unknown">
+            </div>
+            <div class="temperature-value">
+                <p>-°<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p> - </p>
+            </div>
+        </div>
+        </div> 
+        <div class="col-lg-3 col-4 mx-auto">
+            <p class="todo-title">ToDo List:</p>
+            <ul id="list" class="js-list list"></ul>
+        </div>   
+    </div>
+    <div class="row"></div>
+    <div class="row col-lg-6 col-8 mx-auto text-center">
+        <div class="js-clock clock"><br>
+            <h1 class="clock-text">00:00:00</h1>
+        </div>
+    </div>
+            </div>
+</div>
+
+
+
+
+
+
+    <!-- link to bootstrap cdn -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+    
+    <!-- link to project JS -->
+    <script src="scripts/clock.js"></script>
+<script src="scripts/weather.js"></script>
+<!--<script src="scripts/hello.js"></script>-->
+<script src="scripts/todo.js"></script>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum-clone</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+<body>
+<div class="js-clock clock">
+    <h3 class="clock-text">00:00</h3>
+</div>
+<div class="js-name name"></div>
+<div>
+    <form  id="form"></form>
+</div>
+<div class="js-weather weather">
+    <span class="weather-text"></span>
+</div>
+
+<script src="scripts/clock.js"></script>
+<script src="scripts/weather.js"></script>
+<script src="scripts/hello.js"></script>
+<script src="scripts/todo.js"></script>
+</body>
+</html>-->

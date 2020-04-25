@@ -1,0 +1,11 @@
+.clock {
+    color: #ffffff;
+    
+}
+.clock-text {
+    position: center;
+    text-align: center;
+    font-size: 3em;
+    color: #000000;
+    margin-left: 2em;
+}
