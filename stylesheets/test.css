@@ -1,0 +1,105 @@
+body {
+    background-image: url("https://source.unsplash.com/random/");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation-delay: 0.5s;
+
+}
+header {
+    background: rgba(13, 72, 161, 0.411);
+    margin-left: 30vw;
+    margin-right: 30vw;
+    color: #ffffff;
+    border-radius: 100%;
+}
+.blue-d4-opacity {
+    background: rgba(13, 72, 161, 0.418);
+}
+.name-text {
+    font-size: 4em;
+}
+.name-input {
+    font-weight: 300;
+    font-size: 3em;
+    text-align: center;
+    color: #ffffff;
+
+}
+input::placeholder {
+    color: #ffffff;
+}
+.container {
+    max-width: 25vw;
+}
+.weather-title {
+    max-width: 25vw;
+    max-height: 3em;
+    border-radius: 0.8em 0.8em 0 0;
+}
+.notification {
+    background-color: #f8d7da;
+}
+.weather-container {
+    max-width: 300px;
+    max-height: 260px;
+    background-color: #f4f9ff42;
+}
+.weather-icon {
+    width: 300px;
+    height: 128px;
+}
+.temperature-value {
+    width:300px;
+    height:60px;
+}
+.temperature-value p {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value p:hover {
+    color: #ff0000;
+}
+.temperature-value span {
+    color: #ffffff;
+    font-size: 0.5em;
+}
+.temperature-description p {
+    padding: 22px;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.todo-form {
+    background: rgba(13, 72, 161, 0.63);
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border-radius: 20px;
+    width: 40vw;
+    height: 3vw;
+}
+.form-control {
+    color: #ffffff;
+}
+ul {
+    list-style-type: none;
+}
+label {
+    color: #ffffff;
+    font-size: 1.2em;
+}

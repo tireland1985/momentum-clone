@@ -4,55 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Momentum-clone</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Portfolio website projects page">
+    <title>Tim Ireland: Momentum-clone</title>
+    <!-- link to Google fonts (Material Icons)-->
+    <link rel="dns-prefetch preconnect" href="https://fonts.googleapis.com/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Google fonts API -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300&display=swap" rel="stylesheet">
+    <!-- link to Materialize CSS Library via CDN -->
+    <link rel="dns-prefetch preconnect" href="https://cdnjs.cloudflare.com/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- link to project stylesheet -->
-    <link rel="stylesheet" href="stylesheets/main.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- link to local stylesheet(s) -->
+    <link rel="stylesheet" href="stylesheets/test.css">
 </head>
 
 <body>
     <header>
         <div class="row">
+            <div class="col s12">
+                <div class="js-name name center"></div>
+               <div class="js-clock clock center">
+                   <h1 class="clock-text">00:00:00</h1>
+               </div> 
+            </div>
         </div>
     </header>
-    <div class="hero">
-        <div class="container">
-
+    <main>
+        <div>
             <div class="row">
-                <div class="col-lg-6 col-8 mx-auto text-center">
-                    <div class="js-clock clock"><br>
-                        <h1 class="clock-text">00:00:00</h1>
-                    </div>
-                </div>
-                <div class="js-name name"></div>
-            </div>
-
-            <div class="row">
-                <form class="col-lg-6 col-8 mx-auto js-todo todo">
-                    <div class="input-group">
-                        <input type="text" id="input" class="form-control js-addTodo addTodo"
+                <div class="col s12">
+                    <div class="todo-form">
+                    <form class="js-todo todo">
+                    <input type="text" id="input" class="form-control js-addTodo addTodo center"
                             placeholder="Enter ToDo Item: " value="">
-                        <!-- <span>
-                    <button id="btn" class="btn btn-primary" type="button">Submit</button>
-                </span>-->
+                        </form>
+                        </div>
                     </div>
-                </form>
             </div>
-
-            <!--<div class="row">
-        <button id="btnClr" class="btn btn-primary mx-auto btnHide" type="button">Clear</button>
-    </div>-->
-
             <div class="row">
-                <div class="col-lg-3 col-4 mx-auto">
-                    <div class="weather-title">
-                        <p>Current Weather:</p>
-                    </div>
+                <div class="col m6">
+                    <div class="container">
+                <div class="card blue-d4-opacity white-text center">
+                    <span class="card-title">Current Weather</span>
+                        <div class="card-content">
+                    
                     <div class="notification"></div>
                     <div class="weather-container">
                         <div class="weather-icon">
@@ -69,37 +69,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-4 mx-auto">
-                    <p class="todo-title">ToDo List:</p>
+            </div>
+        </div>
+    </div>
+        <div class="col m6">
+            <div class="container">
+            <div class="card blue-d4-opacity white-text center">
+                <span class="card-title">ToDo List:</span>
+                <div class="card-content">
                     <ul id="list" class="js-list list"></ul>
                 </div>
             </div>
-            <div class="row"></div>
-            
+        </div>
         </div>
     </div>
+</div>
+    </main>
+
+ <!-- Link to Materialize JavaScript cdn-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <!-- link to project JS -->
+ <script src="scripts/clock.js"></script>
+ <script src="scripts/weather.js"></script>
+ <script src="scripts/hello.js"></script>
+ <script src="scripts/todo.js"></script>
 
 
-
-
-
-
-    <!-- link to bootstrap cdn -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-
-    <!-- link to project JS -->
-    <script src="scripts/clock.js"></script>
-    <script src="scripts/weather.js"></script>
-    <script src="scripts/hello.js"></script>
-    <script src="scripts/todo.js"></script>
-</body>
-
-</html>
+    </body>

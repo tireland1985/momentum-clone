@@ -59,7 +59,7 @@ function getWeather(latitude, longitude){
 }
 // this function should show data in the UI with icons
 function displayWeather() {
-    iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
+    iconElement.innerHTML = `<img src="icons/${weather.iconId}.png" alt="weather icon"/>`;
     tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
     descElement.innerHTML = weather.description;
     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
